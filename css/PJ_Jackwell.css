@@ -1,0 +1,23 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  height: 100vh;
+  background-image: url(../image/JKCF.jpg);
+  background-size: cover;
+}
+
+header div {
+  color: white;
+}
+
+header div h1 {
+  font-size: 80px;
+  margin-top: 20%;
+}
+/*# sourceMappingURL=PJ_Jackwell.css.map */
