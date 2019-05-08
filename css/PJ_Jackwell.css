@@ -1,6 +1,7 @@
 @charset "UTF-8";
 * {
   font-family: 微軟正黑體;
+  border: 1px solid #000;
   margin: 0;
   padding: 0;
   position: relative;
@@ -9,8 +10,9 @@
 header {
   text-align: center;
   height: 100vh;
-  background-image: url(../image/JKCF.jpg);
+  background-image: url(../image/DSC00005-01.jpeg);
   background-size: cover;
+  background-position: center center;
 }
 
 header div {
@@ -19,7 +21,7 @@ header div {
 
 header div h1 {
   font-size: 80px;
-  margin-top: 30%;
+  margin-top: 20%;
 }
 
 section#section_about .row {
@@ -37,7 +39,7 @@ section#section_about .row .col-7 h1 {
   width: 800px;
   top: 200px;
   float: right;
-  background-image: url(../image/cafe.jpg);
+  background-image: url(../image/DSC09952-01.jpeg);
   background-size: cover;
   background-position: center right;
 }
@@ -65,5 +67,21 @@ section#section_about .row .col-5 h1 p {
 
 section#section_branch div {
   height: 90vh;
+  background-size: cover;
+}
+
+section#section_branch .oldjack {
+  background-image: url(../image/DSC00029-01.jpeg);
+  background-position: 45% 50%;
+}
+
+section#section_branch .jackwell {
+  background-image: url(../image/DSC09965-01.jpeg);
+  background-position: 45% 50%;
+}
+
+section#section_branch .doux {
+  background-image: url(../image/DSC09989-01.jpeg);
+  background-position: 70% 50%;
 }
 /*# sourceMappingURL=PJ_Jackwell.css.map */
