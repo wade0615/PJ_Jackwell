@@ -47,9 +47,10 @@ section#section_about
                 width: 600px
                 top: 230px
                 float: left
-                background-image: url(../image/tim-mossholder-1129943-unsplash.jpg)
-                background-size: cover
-                background-position: center right
+                // background-image: url(../image/tim-mossholder-1129943-unsplash.jpg)
+                // background-size: cover
+                // background-position: center right
+                background-color: #2d2d2d
                 padding: 30px
                 p
                     font-size: 20px
@@ -65,11 +66,16 @@ section#section_branch
     .col-4
         cursor: pointer
         p
-            font-size: 20px
+            font-size: 30px
+            font-weight: bold
+            top: 50%
+            text-align: center
+            color: white
+
         &:hover 
             p 
-                opacity: 0.7
-                color: white
+                opacity: 1
+                // color: white
             &::before 
                 filter: brightness(0.5)
         &::before
@@ -94,3 +100,53 @@ section#section_branch
         background-image: url(../image/DSC09989-01.jpeg)
         background-position: 70% 50%
         background-size: auto 100%
+
+
+section#careers
+    height: 80vh
+    background-color: #eee
+    background-image: url(../image/cropped-1920-1080-796903.jpg)
+    background-size: auto 100%
+    background-position: center center
+    background-repeat: no-repeat
+    // filter: brightness(0.5)
+    h1
+        font-size: 55px
+        letter-spacing: 3px
+        text-align: center
+        color: #D3B392
+        margin-top: 15%
+    h2
+        text-align: center
+        letter-spacing: 11px
+        color: #fff
+
+footer
+    .flexcard
+        height: 20vh
+        background-color: #343A40
+        display: flex
+        .trademark
+            flex: 4
+            background-image: url(../image/logo.png)
+            background-size: auto 180%
+            background-position: 80% center
+            background-repeat: no-repeat
+        .links
+            flex: 6
+            display: flex
+            a
+                display:flex
+                // background-color: yellow
+                i
+                    justify-content: flex-start
+            .fb
+                flex: 1
+            .ig
+                flex: 1
+        .ad
+            flex: 4
+            
+        
+            
+            
